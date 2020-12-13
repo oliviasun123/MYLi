@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+div {
+  background-color: #F0F8FF;
+}
+</style>
 <head>
 	<meta charset="UTF-8">
 	<title>今天吃什么？</title>
 </head>
 <body background="Wallpaper.jpg">
+<div>
 	<h1 align="center">选择你想吃的东西</h1>
-	<p align="center">希望可以抽中喜欢的</p><br>
+	<p align="center">小孙今天也要加油呀!⛽️</p><br>
 	<center><button type="button" onclick="document.getElementById('demo').innerHTML = myFunction()">
 	Click me to start</button></center>
-	<p id="demo" align="center">Result</p>
+	<h2 id="demo" align="center">Result</h2>
+	<center><img src="cat.jpeg" alt="cat"></center>
+</div>
 	<script>
         var myRes = new Array("那家小馆 bistro Na", "百味陕西 Shaanxi garden","阿凡提 dolan‘s Uyghur restaurant 新疆菜", "豫香园 羊肉泡馍", "吉荣烤鸭店 Ji Rong Peking Duck", "杨铭宇黄焖鸡米饭", "黄金阁 Atlantic seafood", "上岛海鲜酒家", "银记肠粉", "凯旋宫 Lunasia Dim Sum House", "新疆烧烤 xinjiang bbq","老街漫烤 Qin‘s garden", "江南春", "隆兴记", "鼎泰丰", "洞庭春", "吴名冒菜", "芙蓉树下 Hibiscus tree","蜀香品鱼轩", "成都印象", "锦城里 sichuan impression", "辣道 Paths to Spicy", "香辣汇", "沸点 boiling point", "黄记煌三汁闷锅 simmer huang", "夏馆子 bistro xia’s", "鹿鼎记 duck house", "文昌鸡饭 man chan cuisine", "许留山", "杏记甜品", "Yu cake", "bread papa 泡芙","一芳", "鹿角巷", "Tan cha", "85度C", "巴黎贝甜", "小路子清粥 lu‘s garden", "永和豆浆 Yung ho dou Jiang",  "嘴香园 饺子包子面小菜", "一品包饺王 dumpling kitchen", "婆婆家 you kitchen", "Mama Lu‘s dumpling house","滋味小面 main", "壹碗粉", "1919 兰州beef noodle", "重庆小面 chongqing special noodle", "合合面家 noodle harmony");
         var len = myRes.length;
